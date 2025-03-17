@@ -1,0 +1,66 @@
+h1 {
+  font-size: 20px;
+  text-decoration: underline;
+} 
+p, div, section, iframe, figcaption, figure {
+  text-align: center;
+}
+iframe {
+  max-width: 80%;
+}
+h1, h2, h3 {
+  text-align: center;
+  font-weight: bold;
+  color: gold;
+}
+h3 {
+  text-decoration: underline;
+}
+body {
+  color: ghostwhite;
+  font-family: courier, Sans-Serif;
+  background-color: #333333;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin: auto;
+}
+main {
+  padding-left: 2px;
+  padding-right: 2px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 90%;
+}
+.logo {
+  max-width: 60%;
+  max-height: 15%;
+}
+a {
+  color: thistle;
+}
+marquee {
+  font-style: italic;
+}
+.phonebooth {
+  max-width: 50%;
+}
+img {
+  max-width: 90%;
+}
+
+@media screen and (max-width: 600px) {
+   body {
+    min-width: 600px;
+   }
+    .phonebooth {
+    min-width: 50%;
+    }
+    h2 {
+      font-size: 14px;
+    }
+    h3 {
+      font-size: 12px;
+    }
+}
